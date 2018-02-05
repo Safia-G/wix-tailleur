@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.head {
+  border: 1px solid white;
+  padding: 20px;
+  margin: 20px;
+}
+.head h2 {
+  font-size: 27px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.head span {
+  font-variant: small-caps;
+}
+.head hr {
+  margin: 5px;
+}
+.head p {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.menu li {
+  font-size: 20px;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-variant: small-caps;
+  list-style-type: none;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.accueil {
+  background-image: url(img/veste.webp);
+  height: 25vw;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  background-color: #E7F0D7;
+  margin-left: 680px;
+  margin-right: 120px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.text h1 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.text p {
+  margin-bottom: 55px;
+}
+.accueil img {
+  width: 100%;
+}
+.accueil2 {
+  background-image: url(img/veste1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #E7F0D7;
+  margin-left: 250px;
+  margin-right: 670px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.text1 p {
+  margin-top: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text1 span {
+  margin-bottom: 20px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.logo {
+  text-align: center;
+  margin-right: 50px;
+}
+.logo h2 {
+  padding-top: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.logo span {
+  font-size: 10px;
+}
+.menu-footer {
+  padding-top: 20px;
+}
+.menu-footer li {
+  font-size: 18px;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-variant: small-caps;
+  list-style-type: none;
+}
+.menu-footer a {
+  color: white;
+  text-decoration: none;
+}
+.contact-footer {
+  margin-left: 50px;
+  font-size: 10px;
+}
+.note p {
+  font-size: 13px;
+}
+.sur-mesure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #E7F0D7;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.sur-mesure-title {
+  margin-left: 450px;
+  margin-right: 450px;
+}
